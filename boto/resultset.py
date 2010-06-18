@@ -73,6 +73,10 @@ class ResultSet(list):
             self.key_marker = value
         elif name == 'VersionIdMarker':
             self.version_id_marker = value
+        elif name == 'NextKeyMarker':
+            self.next_key_marker = value
+        elif name == 'NextVersionIdMarker':
+            self.next_version_id_marker = value
         elif name == 'Prefix':
             self.prefix = value
         elif name == 'return':
