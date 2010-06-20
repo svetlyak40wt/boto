@@ -46,6 +46,8 @@ class ResultSet(list):
         self.marker = None
         self.key_marker = None
         self.version_id_marker = None
+        self.next_key_marker = None
+        self.next_version_id_marker = None
         self.is_truncated = False
         self.next_token = None
         self.status = True
